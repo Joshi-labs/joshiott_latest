@@ -1,0 +1,159 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Custom range input styles */
+input[type="range"].range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  height: 5px;
+}
+
+input[type="range"].range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"].range-thumb::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* Video Player Mobile Styles */
+@media (max-width: 768px) {
+  .controls-ui {
+    opacity: 1 !important;
+    padding: 1rem !important;
+  }
+  
+  .controls-ui button {
+    min-height: 44px; /* Better touch targets */
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="range"] {
+    height: 8px; /* Larger hit area for mobile */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Always show controls on touch devices */
+@media (pointer: coarse) {
+  .controls-ui {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+/* Video Player Styles */
+:fullscreen .controls-ui,
+:-webkit-full-screen .controls-ui,
+:-moz-full-screen .controls-ui,
+:full-screen .controls-ui {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 9999 !important;
+}
+
+.controls-ui:hover {
+  opacity: 1 !important;
+}
+
+/* Custom range input styles */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  height: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* Ensure controls are always visible in fullscreen */
+:fullscreen .video-player {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
