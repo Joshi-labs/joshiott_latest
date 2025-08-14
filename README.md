@@ -129,24 +129,13 @@ JoshiOTT implements adaptive-bitrate streaming via HLS:
 
 ---
 
-## Contributing
-
-1. Fork the repository  
-2. Create a feature branch (`git checkout -b feature/YourFeature`)  
-3. Commit changes (`git commit -m 'Add new feature'`)  
-4. Push to the branch (`git push origin feature/YourFeature`)  
-5. Open a Pull Request
-
----
-
 ## License
 
-Specify your license here (e.g., MIT License).
+MIT License.
 
 ---
 
 ## Contact
 
 **VP Joshi** — Creator  
-Email: your-email@example.com  
-Live Demo: [ott.vpjoshi.in](https://ott.vpjoshi.in)
+Email: vishwashmax@gmail.com  
