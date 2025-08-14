@@ -21,7 +21,7 @@ The result: a production-ready OTT platform—fast, secure, and visually polishe
 
 
 ![Homepage](screenshorts/home.png)
-![Playing Stream / HLS in Action](screenshorts/watch.png)
+![Playing Stream / HLS in Action](screenshorts/watching.png)
 ![Login via AWS Lambda Auth](screenshorts/signin.png)
 ![Watchlist](screenshorts/mylist.png)
 
