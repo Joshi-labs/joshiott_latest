@@ -19,12 +19,11 @@ The result: a production-ready OTT platform—fast, secure, and visually polishe
 
 ## Demo & Screenshots
 
-> _Add screenshots of homepage, playback, and login/auth flow here._
-
 ```
-![Homepage](path/to/homepage.png)
-![Playing Stream / HLS in Action](path/to/streaming.png)
-![Login via AWS Lambda Auth](path/to/login.png)
+![Homepage](screenshorts/home.png)
+![Playing Stream / HLS in Action](screenshorts/watch.png)
+![Login via AWS Lambda Auth](screenshorts/signin.png)
+![Watchlist](screenshorts/mylist.png)
 ```
 
 ---
