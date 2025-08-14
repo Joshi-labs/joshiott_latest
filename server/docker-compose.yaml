@@ -1,0 +1,15 @@
+
+services:
+  streaming-server:
+    build: .
+    image: vishwashjoshi/joshiott_backend
+    container_name: joshi-ott-streamer
+    ports:
+      - "8080:8080"
+    volumes:
+      - /home/ubuntu/SRV:/SRV/:ro
+    environment:
+      - JWT_SECRET=**
+      - AUTH_API_BASE_URL=**
+
+    restart: always
